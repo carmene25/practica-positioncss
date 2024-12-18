@@ -1,0 +1,63 @@
+.tag_product{
+    color: red;
+}
+.wrapper-card{
+    color: green;
+    font-size: 50px;
+    
+}
+.wrapper-card{
+    color: yellow; 
+}
+.producto_2{
+    color: green;
+}
+.tag_product{
+    color: purple;
+    }
+#card{
+    color: rebeccapurple;
+}
+.box-min-width{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+@media screen and (min-width: 300px){
+    .box-min-width{
+        width: 50px;
+        height: 50px;
+        background: blue;
+    }
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .box-min-width{
+        width: 150px;
+        height: 150px;
+        background: yellowgreen;
+    }
+}
+
+.box-max-width{
+    border: 1px solid salmon;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background: aqua;
+}
+
+
+@media screen and (max-width: 300px){
+    .box-max-width{
+        border: 1px solid salmon;
+        border-radius: 10px;
+        width: 300px;
+        height: 300px;
+        background: black;
+    }
+}
